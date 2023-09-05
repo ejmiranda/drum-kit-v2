@@ -12,7 +12,7 @@ window.addEventListener('keydown', (event) => {
 
 function getMediaPath(key) {
   switch(key) {
-    case 'a': return 'media/mario.wav';
+    case 'a': return '/workspaces/drum-kit-v2/media/mario.wav';
     case 's': return 'media/luigi.wav';
     case 'd': return 'media/peach.wav';
     case 'f': return 'media/toad.wav';

@@ -1,6 +1,6 @@
 ## Drum Kit v2
 
-![Drum Kit Screenshot](#)
+![Drum Kit Screenshot](https://github.com/ejmiranda/drum-kit-v2/blob/main/media/img/screenshot.png)
 
 **[View Live](https://ejmiranda.github.io/drum-kit-v2/)**
 

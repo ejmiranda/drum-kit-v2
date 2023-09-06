@@ -1,13 +1,25 @@
+@font-face {
+  font-family: 'Mario Bros';
+  src: url(media/font/SuperMario256.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+body {
+  background-image:url('media/img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
 .container {
   height: 100vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  margin: 150px 0;
   justify-content: center;
 }
 
@@ -17,7 +29,14 @@
 }
 
 .key {
-  border: 1px solid black;
+  background-image:url('media/img/key-background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgba(234, 240, 246, 0);
+  cursor: pointer;
+  font-family: 'Mario Bros';
+  font-size: 250%;
   height: 65px;
   width: 65px;
   transition: all .07s ease;

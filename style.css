@@ -20,11 +20,14 @@
   border: 1px solid black;
   height: 65px;
   width: 65px;
+  transition: all .07s ease;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .down {
-  color: red;
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
 }

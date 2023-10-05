@@ -13,7 +13,6 @@ body {
   background-image:url('media/img/background.jpg');
   background-repeat: no-repeat;
   background-size: 100vw;
-  overflow: hidden; /* Hide scrollbars */
 }
 
 .container {
